@@ -9,7 +9,12 @@ KGSearch is a minimalist tool for searching and viewing entities in a graph and 
 ## Installation
 
 ```sh
-pip install git+https://github.com/raphaelsty/kgsearch
+conda create -n kgsearch python=3.10
+conda activate kgsearch
+kg start
+kg start
+pip install -e .
+
 ```
 
 ## ✅ Quick Start
