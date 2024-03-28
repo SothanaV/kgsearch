@@ -31,7 +31,7 @@ class Search:
         self.colors = ["#00A36C", "#9370DB", "#bbae98", "#7393B3", "#677179", "#318ce7", "#088F8F"]
         self.metadata = {}
 
-        triples = pd.read_csv(file, header=None, sep=",")
+        triples = pd.read_csv(file, header=None, sep=",", dtype="string").dropna()
 
         documents = [
             {"key": key, "label": label}

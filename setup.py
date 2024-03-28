@@ -9,7 +9,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="kgsearch",
-    version="0.0.1",
+    version="0.0.3",
     author="Raphael Sourty",
     author_email="raphael.sourty@gmail.com",
     description="Minimalist visual search engine for Knowledge Graph.",
