@@ -19,7 +19,7 @@ pip install -e .
 
 or
 ```sh
-pip upinstall git+https://github.com/raphaelsty/kgsearch
+pip install git+https://github.com/wasit7/kgsearch.git
 ```
 
 ## ✅ Quick Start
