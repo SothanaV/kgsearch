@@ -17,6 +17,11 @@ pip install -e .
 
 ```
 
+or
+```sh
+pip upinstall git+https://github.com/raphaelsty/kgsearch
+```
+
 ## ✅ Quick Start
 
 The `start` command starts the API and opens the user interface:
