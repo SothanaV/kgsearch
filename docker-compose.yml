@@ -1,0 +1,15 @@
+volumes:
+  db: {}
+services: 
+    kgsearch:
+        container_name: kgsearch
+        build: ./backend
+        command: sh runserver-dev.sh
+        volumes: 
+            - ./backend:/backend
+            - db:/db
+        ports: 
+            - 8000:8000
+        environment:
+            - PYTHONUNBUFFERED=1
+            - DJANGO_ALLOW_ASYNC_UNSAFE=true
